@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 const btnGroup = document.querySelector(".btn-group");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "AAAAA, Thank you so much buttercup. I love you too!";
+  question.innerHTML = "I LOVEEE YOUU TOO!, send a message "buttercup" in whatsapp to tell alil";
   gif.src = "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp";
 
 
