@@ -3,10 +3,19 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
+const btnGroup = document.querySelector(".btn-group");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "AAAAA, Thankk youu soo much buttercupp. I lovee you tooo!";
+  question.innerHTML = "AAAAA, Thank you so much buttercup. I love you too!";
   gif.src = "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp";
+
+
+  btnGroup.style.display = "none";
+
+  gif.style.display = "block";
+  gif.style.margin = "0 auto";
+  gif.style.position = "relative";
+  gif.style.top = "-50px"; 
 });
 
 noBtn.addEventListener("mouseover", () => {
